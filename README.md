@@ -1,6 +1,7 @@
 # start-with
 
 > Determines whether a string begins with the characters of another string.
+
 > Ponyfill: A polyfill that doesn't overwrite the native method.
 
 
