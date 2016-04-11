@@ -2,6 +2,8 @@
 
 > Determines whether a string begins with the characters of another string.
 
+> ES2015 [String#startsWith()](http://www.ecma-international.org/ecma-262/6.0/#sec-string.prototype.startswith) ponyfill.
+
 > Ponyfill: A polyfill that doesn't overwrite the native method.
 
 
