@@ -1,6 +1,6 @@
 # start-with
 
-> Determines whether a string begins with the characters of another string, returning `true` or `false` as appropriate.
+> Determines whether a string begins with the characters of another string.
 
 
 [![MIT License](https://img.shields.io/badge/license-MIT_License-green.svg?style=flat-square)](https://github.com/bubkoo/start-with/blob/master/LICENSE)
@@ -33,7 +33,7 @@ startWith('abcde', null); // => false
 
 ## Related
 
-- [end-with](https://github.com/bubkoo/end-with) - Determines whether a string ends with the characters of another string, returning `true` or `false` as appropriate.
+- [end-with](https://github.com/bubkoo/end-with) - Determines whether a string ends with the characters of another string.
 
 
 ## Contributing
