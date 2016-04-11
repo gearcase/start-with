@@ -1,0 +1,54 @@
+{
+  "name": "start-with",
+  "version": "0.0.0",
+  "description": "Determines whether a string begins with the characters of another string, returning `true` or `false` as appropriate.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "jshint index.js",
+    "pretest": "npm run lint",
+    "test": "mocha -R spec",
+    "test:cov": "rm -rf ./test/coverage && istanbul cover _mocha --dir ./test/coverage -- -R spec",
+    "test:rpt": "npm run test:cov && coveralls < ./test/coverage/lcov.info",
+    "prepublish": "npm test"
+  },
+  "keywords": [
+    "string",
+    "str",
+    "search",
+    "prefix",
+    "starts",
+    "start",
+    "with",
+    "ends",
+    "end",
+    "check",
+    "first",
+    "begin",
+    "last",
+    "end",
+    "util",
+    "utils",
+    "utility",
+    "tool"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "bubkoo",
+    "email": "bubkoo.wy@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bubkoo/start-with.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bubkoo/start-with/issues"
+  },
+  "homepage": "https://github.com/bubkoo/start-with#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "coveralls": "^2.11.9",
+    "istanbul": "^0.4.2",
+    "jshint": "^2.9.1",
+    "mocha": "^2.4.5"
+  }
+}
