@@ -1,6 +1,8 @@
 # start-with
 
 > Determines whether a string begins with the characters of another string.
+> Ponyfill: A polyfill that doesn't overwrite the native method.
+
 
 
 [![MIT License](https://img.shields.io/badge/license-MIT_License-green.svg?style=flat-square)](https://github.com/bubkoo/start-with/blob/master/LICENSE)
