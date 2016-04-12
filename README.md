@@ -1,4 +1,5 @@
-# start-with
+# start-with <sup>[![Version Badge](http://versionbadg.es/bubkoo/start-with.svg)](https://npmjs.org/package/start-with)</sup>
+
 
 > Determines whether a string begins with the characters of another string.
 
@@ -50,3 +51,4 @@ Pull requests and stars are always welcome.
 For bugs and feature requests, please [create an issue](https://github.com/bubkoo/start-with/issues).
    
 But before doing anything, please read the [CONTRIBUTING](https://github.com/tunnckocore/starts-with/blob/master/CONTRIBUTING.md) guidelines.
+
