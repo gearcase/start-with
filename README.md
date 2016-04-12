@@ -39,6 +39,8 @@ startWith('abcde', null); // => false
 ## Related
 
 - [end-with](https://github.com/bubkoo/end-with) - Determines whether a string ends with the characters of another string.
+- [pad-start](https://github.com/bubkoo/pad-start) - ES spec-compliant shim for String.prototype.padStart.
+- [pad-end](https://github.com/bubkoo/pad-end) - ES spec-compliant shim for String.prototype.padEnd.
 
 
 ## Contributing
