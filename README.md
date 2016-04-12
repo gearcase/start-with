@@ -46,9 +46,6 @@ startWith('abcde', null); // => false
 
 ## Contributing
  
-Pull requests and stars are always welcome. 
+Pull requests and stars are highly welcome. 
 
 For bugs and feature requests, please [create an issue](https://github.com/bubkoo/start-with/issues).
-   
-But before doing anything, please read the [CONTRIBUTING](https://github.com/tunnckocore/starts-with/blob/master/CONTRIBUTING.md) guidelines.
-

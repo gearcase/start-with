@@ -1,6 +1,6 @@
 {
   "name": "start-with",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Determines whether a string begins with the characters of another string.",
   "main": "index.js",
   "scripts": {
