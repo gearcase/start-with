@@ -1,6 +1,6 @@
 {
   "name": "start-with",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Determines whether a string begins with the characters of another string.",
   "main": "index.js",
   "scripts": {
@@ -42,12 +42,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bubkoo/start-with.git"
+    "url": "git+https://github.com/gearcase/start-with.git"
   },
   "bugs": {
-    "url": "https://github.com/bubkoo/start-with/issues"
+    "url": "https://github.com/gearcase/start-with/issues"
   },
-  "homepage": "https://github.com/bubkoo/start-with#readme",
+  "homepage": "https://github.com/gearcase/start-with#readme",
   "devDependencies": {
     "chai": "^3.5.0",
     "coveralls": "^2.11.9",
