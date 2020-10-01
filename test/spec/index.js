@@ -41,4 +41,24 @@ describe('start-with: ', function () {
   it('startWith(\'abc\', \'bc\') => false', function () {
     expect(startWith('abc', 'bc')).to.equal(false);
   });
+
+  it('startWith(\'abc\', \'bc\', -1) => false', function () {
+    expect(startWith('abc', 'abc', -1)).to.equal(true);
+  });
+
+  it('startWith(\'abc\', \'bc\', 1) => false', function () {
+    expect(startWith('abc', 'bc', 1)).to.equal(true);
+  });
+
+  it('startWith(\'abc\', \'abc\', 10) => false', function () {
+    expect(startWith('abc', 'abc', 10)).to.equal(false);
+  });
+
+  it('startWith(\'abc\', \'abc\', \'foo\') => false', function () {
+    expect(startWith('abc', 'abc', 'foo')).to.equal(true);
+  });
+
+  it('startWith(\'abc\', \'abcd\') => false', function () {
+    expect(startWith('abc', 'abcd')).to.equal(false);
+  });
 });
